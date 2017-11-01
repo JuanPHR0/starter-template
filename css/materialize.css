@@ -3402,6 +3402,12 @@ nav ul a span.badge {
 
 .section.no-pad-bot {
   padding-bottom: 0;
+    
+}
+.section.no-pad-bot-Notice {
+    background:#008B8B;
+    height: auto;
+    
 }
 
 .section.no-pad-top {
@@ -9407,4 +9413,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   stroke-width: 4;
   stroke-linecap: round;
   /*shape-rendering: crispEdges;*/
+}
+img.imgServicios{
+    width: 200px;
+    height: 200px;
 }
