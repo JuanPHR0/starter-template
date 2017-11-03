@@ -4511,6 +4511,7 @@ h2 {
 }
 
 h3 {
+    color: #20B2AA;
   font-size: 2.92rem;
   line-height: 110%;
   margin: 1.46rem 0 1.168rem 0;
@@ -9420,75 +9421,4 @@ img.imgServicios{
 }
 .texto-azul{
     color: #008B8B;
-}
-
-.sliderr{
-    
-    padding: 0.35em;
-    align-content: center;
-    color="#00FFFF";
-    width: 95%;
-    margin: auto;
-    overflow: hidden;
-    
-    border-radius:0.2em;
-}
-.sliderr ul{
-    display:flex;
-    padding:0;
-    width: 400%;
-    animation: cambio 30s infinite alternate linear;
-    }
-    
-.sliderr li{
-    list-style: none;
-    width: 90%;
-}
-.sliderr img{
-    
-    width: auto;
-    height: auto;
-}
-
-@keyframes cambio {
-    
-    0%{margin-left:0;}
-    20%{margin-left:0;}
-   
-    25%{margin-left:-100%}
-    45%{margin-left:-100%}
-    
-    50%{margin-left:-200%}
-    60%{margin-left:-200%}
-    
-    75%{margin-left:-300%}
-    100%{margin-left:-300%}
-    
-}
-
-
-
-@keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -400%; }
-}
-
-body { margin: 0; } 
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: center;
-  font-size: 0;
-  animation: 30s slidy infinite; 
 }
